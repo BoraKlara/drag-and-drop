@@ -5,12 +5,23 @@
 
 
 body {
+  background: linear-gradient(to right, #1f4037, #99f2c8);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+
+}
+
+
+.empty{
+  height: 150px;
+  width:150px;
+  margin: 10px;
+  border: solid 3px #000;
+  background: white;
 }
 
 @media (max-width: 800px){
