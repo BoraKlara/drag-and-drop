@@ -28,6 +28,15 @@ body {
   );
   height: 145px;
   width: 145px;
+  cursor: pointer;
+}
+
+.hold{
+  border: solid 5px #ccc;
+}
+
+.hovered{
+  background-color: #333;
 }
 
 @media (max-width: 800px){
