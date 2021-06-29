@@ -1,3 +1,6 @@
+const fill = document.querySelector(".fill");
+const empties = document.querySelectorAll(".empty");
+
 function dragStart() {
   console.log("drag start");
 }
@@ -7,17 +10,17 @@ function dragEnd() {
 }
 
 function dragOver() {
-  console.log("drag start");
+  console.log("drag ove");
 }
 
 function dragEnter() {
-  console.log("drag start");
+  console.log("drag enter");
 }
 
 function dragLeave() {
-  console.log("drag start");
+  console.log("drag leave");
 }
 
 function dragDrop() {
-  console.log("drag start");
+  console.log("drag drop");
 }
