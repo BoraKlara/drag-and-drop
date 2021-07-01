@@ -32,9 +32,10 @@ body {
 }
 
 .hovered {
-  background-color: #333;
-  border-color: white;
-  border-style: dashed;
+  background-color: rgb(138, 138, 138);
+  border-color: rgb(197, 197, 197);
+
+  border-style: solid 1px;
 }
 
 @media (max-width: 800px) {
